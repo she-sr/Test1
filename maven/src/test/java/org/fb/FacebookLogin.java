@@ -19,8 +19,8 @@ public class FacebookLogin {
 		password.sendKeys("Logesh@23051996");
 		WebElement login=driver.findElement(By.xpath("//button[@name='login']"));
 		login.click();
-		WebElement login=driver.findElement(By.xpath("//button[@name='login']"));
-		login.click();
+		WebElement name=driver.findElement(By.xpath("//button[@name='login']"));
+		name.click();
 		
 	}
 
